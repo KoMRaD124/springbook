@@ -1,0 +1,66 @@
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 40px;
+  height: 467px;
+  background-image: url("./bg.png");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.h1 {
+  margin-left: 209px;
+  padding-top: 71px;
+}
+.name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  color: #242424;
+}
+.job {
+  margin-top: 19px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #404040;
+  opacity: 0.7;
+}
+.about {
+  margin-top: 51px;
+  display: flex;
+}
+.aboutWork {
+  margin-left: 116px;
+  width: 180px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #404040;
+  opacity: 0.7;
+}
+.link {
+  display: flex;
+  opacity: 0.7;
+  margin-left: 589px;
+  &:hover{
+    opacity: 1;
+  }
+}
+.linkText {
+  margin: auto 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 120%;
+  color: #404040;
+}
+.linkSvg{
+  padding-left: 12px;
+}
