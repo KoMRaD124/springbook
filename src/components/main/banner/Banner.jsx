@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Banner.module.scss";
 import { contentText, pdf, downloadPDF } from "../../../assets/main";
 export const Banner = () => {
-  const [isShownHoverContent, setIsShownHoverContent] = React.useState(false);
+  const [isHover, setIsHover] = React.useState(false);
   return (
     <div className={styles.wrapper}>
       <div className={styles.content}>
@@ -24,13 +24,13 @@ export const Banner = () => {
           </div>
         </div>
         <div
-          onMouseEnter={() => setIsShownHoverContent(true)}
-          onMouseLeave={() => setIsShownHoverContent(false)}
+          onMouseEnter={() => setIsHover(true)}
+          onMouseLeave={() => setIsHover(false)}
           className={styles.link}
         >
           <div className={styles.linkText}>Скачать резюме</div>
           <div className={styles.linkSvg}>
-            <img src={isShownHoverContent?downloadPDF:pdf} alt="" />
+            <img src={isHover?downloadPDF:pdf} alt="" />
           </div>
         </div>
       </div>
