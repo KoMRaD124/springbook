@@ -3,6 +3,8 @@ import contentText from "./contentText.svg"
 import pdf from "./PDF.svg"
 import photo from "./photo.jpg"
 import Mail from "./Mail.svg"
+import MailHover from "./MailHover.svg"
 import CaseImg from "./CaseImg.jpg"
 import avatarka from "./avatarka.png"
-export{logo,contentText,pdf,photo,Mail,CaseImg,avatarka}
+import DownloadFooter from "./DownloadFooter.svg"
+export{logo,contentText,pdf,photo,Mail,CaseImg,avatarka,MailHover,DownloadFooter}

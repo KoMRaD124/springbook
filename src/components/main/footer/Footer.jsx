@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Footer.module.scss";
-import { logo } from "../../../assets/main";
+import { logo,MailHover,DownloadFooter } from "../../../assets/main";
 
 export const Footer = () => {
   return (
@@ -15,8 +15,8 @@ export const Footer = () => {
       </div>
       <div className={styles.firstcol}>
         <div className={styles.colHead}>Связаться со мной</div>
-        <div className={styles.colitem}>springbook.pro@gmail.com</div>
-        <div className={styles.colitem}>скачать резюме</div>
+        <a href="mailto:springbook.pro@gmail.com" className={styles.colitem}><img src={MailHover} alt="mail" /><span className={styles.colitemText}>springbook.pro@gmail.com</span></a>
+        <div className={styles.colitem}><img src={DownloadFooter} alt="download CV" /><span className={styles.colitemText}>скачать резюме</span></div>
       </div>
       <div className={styles.secondcol}>
         <div className={styles.colHead}>Меню</div>
