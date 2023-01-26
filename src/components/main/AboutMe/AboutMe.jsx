@@ -13,7 +13,7 @@ export const AboutMe = () => {
           <div className={styles.aboutMeBlockHead}>
             Училась в Нетологии
             <br /> Сейчас сотрудничаю с{" "}
-            <a className={styles.link} target="_blank" href="https://кодим.рф">
+            <a className={styles.link} target="_blank" rel="noreferrer" href="https://кодим.рф">
               веб-студией
             </a>
           </div>
