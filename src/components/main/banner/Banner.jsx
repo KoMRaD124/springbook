@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./Banner.module.scss";
-import { contentText,pdf, downloadPDF } from "../../../assets/main";
+import { contentText, pdf, downloadPDF } from "../../../assets/main";
 export const Banner = () => {
-let icon=pdf
+  const [isShownHoverContent, setIsShownHoverContent] = React.useState(false);
   return (
     <div className={styles.wrapper}>
       <div className={styles.content}>
@@ -23,9 +23,15 @@ let icon=pdf
             областей.
           </div>
         </div>
-        <div className={styles.link}>
+        <div
+          onMouseEnter={() => setIsShownHoverContent(true)}
+          onMouseLeave={() => setIsShownHoverContent(false)}
+          className={styles.link}
+        >
           <div className={styles.linkText}>Скачать резюме</div>
-          <div onMouseOver={icon=downloadPDF} onMouseOut={icon=pdf} className={styles.linkSvg}><img src={icon} alt="" /></div>
+          <div className={styles.linkSvg}>
+            <img src={isShownHoverContent?downloadPDF:pdf} alt="" />
+          </div>
         </div>
       </div>
     </div>
