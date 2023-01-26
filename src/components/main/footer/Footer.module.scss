@@ -2,4 +2,48 @@
   width: 1200px;
   margin: 0 auto;
   margin-top: 80px;
+  display: flex;
+  margin-bottom: 130px;
+}
+.logoText {
+  padding-top: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: right;
+  color: #404040;
+  opacity: 0.7;
+}
+.logoimg {
+  opacity: 0.7;
+  &:hover {
+    opacity: 1;
+  }
+}
+.firstcol {
+  margin-left: 128px;
+}
+.secondcol {
+  margin-left: 133px;
+}
+.colHead {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  color: #242424;
+  margin-bottom: 30px;
+}
+.colitem {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  color: #404040;
+  opacity: 0.7;
+  margin-bottom: 32px;
 }
