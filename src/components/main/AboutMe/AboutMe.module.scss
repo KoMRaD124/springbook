@@ -40,9 +40,9 @@
   color: #fcfcfc;
   margin-top: 50px;
   text-decoration: underline;
-  text-decoration-style: 1px #FCFCFC;
+  text-decoration-style: 1px #fcfcfc;
   text-underline-offset: 16px;
-  text-decoration-color: #FCFCFC;
+  text-decoration-color: #fcfcfc;
   text-decoration-thickness: 1px;
   &:hover {
     color: #52aeff;
@@ -60,10 +60,32 @@
   color: #fcfcfc;
   opacity: 0.7;
 }
-.aboutMeBlockEmail{
+
+.emailBody {
+  padding: 20px 30px;
+  display: flex;
+  margin: auto;
+}
+.emailtext {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  padding-left: 17px;
+}
+.aboutMeBlockEmail {
     display: block;
     margin-top: 160px;
     width: 332px;
-    height: 58px;
-    border: 1px solid #FCFCFC;
-}
+    height: 62px;
+    color: #fcfcfc;
+    border: 1px solid #fcfcfc;
+    &:hover{
+      background-color: #fcfcfc;
+      color: #242424;
+      path{
+        fill: #242424;
+      }
+    }
+  }

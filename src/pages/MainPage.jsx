@@ -3,6 +3,8 @@ import { AboutMe } from "../components/main/AboutMe/AboutMe";
 import { Banner } from "../components/main/banner/Banner";
 import { Header } from "../components/main/header/header";
 import { SecondBlock } from "../components/main/secondBlock/secondBlock";
+import { Cases } from "../components/main/cases/Cases";import { Testquest } from "../components/main/testquest/Testquest";
+;
 
 export const MainPage = () => {
   return (
@@ -11,6 +13,9 @@ export const MainPage = () => {
       <Banner/>
       <SecondBlock/>
       <AboutMe/>
+      <Cases/>
+      <Testquest/>
+      
     </>
   );
 };
