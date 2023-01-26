@@ -7,4 +7,5 @@ import MailHover from "./MailHover.svg"
 import CaseImg from "./CaseImg.jpg"
 import avatarka from "./avatarka.png"
 import DownloadFooter from "./DownloadFooter.svg"
-export{logo,contentText,pdf,photo,Mail,CaseImg,avatarka,MailHover,DownloadFooter}
+import downloadPDF from "./downloadPDF.svg"
+export{logo,contentText,pdf,photo,Mail,CaseImg,avatarka,MailHover,DownloadFooter,downloadPDF}

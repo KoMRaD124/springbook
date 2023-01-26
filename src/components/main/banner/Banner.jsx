@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "./Banner.module.scss";
-import { contentText,pdf } from "../../../assets/main";
+import { contentText,pdf, downloadPDF } from "../../../assets/main";
 export const Banner = () => {
+let icon=pdf
   return (
     <div className={styles.wrapper}>
       <div className={styles.content}>
@@ -24,7 +25,7 @@ export const Banner = () => {
         </div>
         <div className={styles.link}>
           <div className={styles.linkText}>Скачать резюме</div>
-          <div className={styles.linkSvg}><img src={pdf} alt="" /></div>
+          <div onMouseOver={icon=downloadPDF} onMouseOut={icon=pdf} className={styles.linkSvg}><img src={icon} alt="" /></div>
         </div>
       </div>
     </div>

@@ -19,13 +19,14 @@
 }
 .header {
   display: flex;
-  width: 250px;
+  width: 251px;
   margin: auto;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 120%;
+  margin-left:126px;
   color: #242424;
 }
 .text {
@@ -37,4 +38,5 @@
   font-size: 18px;
   line-height: 120%;
   color: #404040;
+  margin-left:158px;
 }
