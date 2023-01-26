@@ -1,5 +1,39 @@
-.wrapper{
-    width: 1200px;
-    margin: 0 auto;
-    margin-top: 150px;
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.header {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 115%;
+  color: #242424;
+}
+.desk {
+  margin-top: 50px;
+}
+.deskitem{
+    margin-top: 40px;
+}
+.deskhead {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  color: #242424;
+}
+.desktext {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  color: #404040;
+  opacity: 0.7;
+}
+.firstcol{
+    width: 389px;
 }
