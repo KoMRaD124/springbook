@@ -3,7 +3,7 @@ import styles from "./AboutMe.module.scss";
 import { photo } from "../../../assets/main";
 export const AboutMe = () => {
   return (
-    <div className={styles.wrapper}>
+    <div id="aboutMe" className={styles.wrapper}>
       <div className={styles.body}>
         <div className={styles.imgBlock}>
           <img src={photo} alt="" />
