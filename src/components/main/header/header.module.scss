@@ -32,3 +32,129 @@
     opacity: 1;
   }
 }
+.burger {
+  display: none;
+}
+.myProjMob{
+  display: none;
+}
+.BlockEmail{
+  display: none;
+}
+@media (max-width: 632px) {
+  .body {
+    width: auto;
+    margin: 0 20px;
+  }
+  .myProj{
+    display: none;
+  }
+  .myProjMob{
+    display: inline;
+  }
+  .wrapper {
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-between;
+    position: relative;
+  }
+  .logo {
+    width: 137px;
+    height: 16px;
+  }
+  .logoImg {
+    width: 137px;
+    height: 16px;
+  }
+  .navlink {
+    margin-left: 0;
+    display: none;
+    &.active{
+      z-index: 49;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: #fcfcfc;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      margin: 0 auto;
+    }
+
+  }
+  .navlinkItem {
+    margin-left: 0px;
+    display: block;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #242424;
+    opacity: 1;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 40px;
+    &:first-child {
+      margin-top: 117px;
+    }
+  }
+  .burger {
+    display: block;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 50;
+  }
+  .burger1 {
+    transform: none;
+    transition: all 0.25s ;
+    transform-origin: center;
+    position: absolute;
+    top:33%;
+    right:0px;
+    &.active {
+      top:54%;
+      transform: rotate(45deg) translateY(-3px);
+
+    }
+  }
+  .burger2 {
+    transform: none;
+    transition: all 0.25s;
+    position: absolute;
+    transform-origin: center;
+    bottom:33%;
+    right: 0px;
+    &.active {
+      bottom:54%;
+      transform: rotate(-45deg) translateY(3px);
+    }
+  }
+  .BlockEmail{
+    display: flex;
+    margin: 0 auto;
+    margin-top: auto;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 58px;
+    color: #242424;
+    border: 1px solid #242424;
+  }
+  .emailBody {
+    padding: 20px 23px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+  }
+  .emailtext {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    padding-left: 16px;
+  }
+}

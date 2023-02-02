@@ -4,8 +4,8 @@ export const SecondBlock = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.header}>
-        Погружаюсь в тему и подбираю ключи,
-        <br />а после пишу текст
+        Погружаюсь в&nbsp;тему и&nbsp;подбираю ключи,
+       а&nbsp;после пишу текст
       </div>
       <div className={styles.desk}>
         <div className={styles.firstcol}>

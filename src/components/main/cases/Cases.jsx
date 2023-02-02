@@ -5,7 +5,7 @@ export const Cases = () => {
   return (
     <div id="myProject" className={styles.wrapper}>
       <div className={styles.header}>
-        Работала над этими проектами в роли<br /> копирайтера
+        Работала над этими проектами в&nbsp;роли копирайтера
       </div>
       <CaseItem/>
       <CaseItem/>

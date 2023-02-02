@@ -6,7 +6,7 @@
   margin-bottom: 130px;
 }
 .logoText {
-  padding-top: 30px;
+  padding-top: 29px;
   font-family: "Inter";
   font-style: light;
   font-weight: 300;
@@ -36,7 +36,7 @@
   font-size: 24px;
   line-height: 120%;
   color: #242424;
-  margin-bottom: 30px;
+  margin-bottom: 31px;
 }
 .colitem {
   font-family: "Inter";
@@ -46,7 +46,7 @@
   line-height: 120%;
   color: #404040;
   opacity: 0.7;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
   cursor: pointer;
   display: flex;
   &:hover{
@@ -55,4 +55,64 @@
 }
 .colitemText{
     padding-left: 17px;
+}
+@media (max-width: 632px) {
+  .wrapper {
+    width: auto;
+    margin: 0 20px;
+    margin-top: 40px;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+  .logoText {
+    padding-top: 10px;
+    font-family: "Inter";
+    font-style: light;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: left;
+    color: #404040;
+    opacity: 0.7;
+  }
+  .logoimg {
+    opacity: 1;
+    cursor: pointer;
+    width: 137px;
+    height: 16px;
+  }
+  .firstcol {
+    margin-left: 0px;
+  }
+  .secondcol {
+    margin-left: 0px;
+  }
+  .colHead {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    color: #242424;
+    margin-bottom: 24px;
+    margin-top: 40px;
+  }
+  .colitem {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #404040;
+    opacity: 1;
+    margin-bottom: 20px;
+    cursor: pointer;
+    display: flex;
+    &:hover{
+      opacity: 1;
+    }
+  }
+  .colitemText{
+      padding-left: 17px;
+  }
 }

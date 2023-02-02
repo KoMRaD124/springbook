@@ -10,13 +10,14 @@
   font-size: 40px;
   line-height: 115%;
   color: #242424;
+  width: 795px;
 }
 .desk {
   margin-top: 50px;
   display: flex;
 }
-.deskitem{
-    margin-top: 40px;
+.deskitem {
+  margin-top: 40px;
 }
 .deskhead {
   font-family: "Inter";
@@ -36,10 +37,58 @@
   opacity: 0.7;
   padding-top: 20px;
 }
-.firstcol{
-    width: 390px;
+.firstcol {
+  width: 390px;
 }
-.secondcol{
-    margin-left: 74px;
-    width: 333px;
+.secondcol {
+  margin-left: 74px;
+  width: 333px;
+}
+@media (max-width: 632px) {
+  .wrapper {
+    width: auto;
+    margin: 0 20px;
+    margin-top: 60px;
+  }
+  .header {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 115%;
+    color: #242424;
+    width: auto;
+  }
+  .desk {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .deskitem {
+    margin-top: 20px;
+  }
+  .deskhead {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    color: #242424;
+  }
+  .desktext {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    opacity: 0.7;
+    padding-top: 10px;
+  }
+  .firstcol {
+    width: auto;
+  }
+  .secondcol {
+    margin-left: 0;
+    width: auto;
+  }
 }

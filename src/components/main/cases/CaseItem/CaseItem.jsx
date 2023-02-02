@@ -8,7 +8,7 @@ export const CaseItem = () => {
       <div className={styles.divider}></div>
       <div className={styles.body}>
         <div className={styles.imgBlock}>
-          <img src={CaseImg} alt="case" />
+          <img className={styles.img} src={CaseImg} alt="case" />
         </div>
         <div className={styles.header}>
           Студия веб-дизайна А тут даже на три фига

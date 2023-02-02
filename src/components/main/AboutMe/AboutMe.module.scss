@@ -75,17 +75,129 @@
   padding-left: 17px;
 }
 .aboutMeBlockEmail {
-    display: block;
-    margin-top: 160px;
-    width: 332px;
-    height: 62px;
+  display: block;
+  margin-top: 160px;
+  width: 332px;
+  height: 62px;
+  color: #fcfcfc;
+  border: 1px solid #fcfcfc;
+  &:hover {
+    background-color: #fcfcfc;
+    color: #242424;
+    path {
+      fill: #242424;
+    }
+  }
+}
+.imgBlockMob {
+  display: none;
+}
+@media (max-width: 632px) {
+  .wrapper {
+    background: #242424;
+    margin-top: 60px;
+    height: auto;
+  }
+  .body {
+    width: auto;
+    margin: 0 20px;
+    padding-top: 40px;
+    color: #fcfcfc;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .aboutMeBlock {
+    margin-left: 0px;
+  }
+  .aboutMeBlockTitle {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 120%;
+    color: #fcfcfc;
+    opacity: 0.7;
+  }
+  .aboutMeBlockHead {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 115%;
+    margin-top: 30px;
+  }
+  .link {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 115%;
+    margin-top: 30px;
+    text-decoration: underline;
+    text-decoration-style: 1px #fcfcfc;
+    text-underline-offset: 8px;
+    text-decoration-color: #fcfcfc;
+    text-decoration-thickness: 1px;
+    white-space: nowrap;
+
+    &:hover {
+      color: #fcfcfc;
+      text-decoration: underline;
+      text-decoration-style: 1px #fcfcfc;
+      text-decoration-thickness: 1px;
+    }
+  }
+  .aboutMeBlockText {
+    width: auto;
+    padding-top: 20px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 120%;
+    color: #fcfcfc;
+    opacity: 0.7;
+  }
+
+  .emailBody {
+    padding: 20px 23px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+  }
+  .emailtext {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    padding-left: 16px;
+  }
+  .aboutMeBlockEmail {
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    height: 58px;
     color: #fcfcfc;
     border: 1px solid #fcfcfc;
-    &:hover{
-      background-color: #fcfcfc;
-      color: #242424;
-      path{
-        fill: #242424;
+    &:hover {
+      background-color: #242424;
+      color: #fcfcfc;
+      path {
+        fill: #fcfcfc;
       }
     }
   }
+  .imgBlock {
+    margin: 0;
+    width: auto;
+  }
+  .imgBlockPhoto {
+    display: none;
+  }
+  .imgBlockMob {
+    padding-top: 40px;
+    display: block;
+    width: 100%;
+  }
+}
